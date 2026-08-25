@@ -10,7 +10,17 @@
 //    - Dentro da funcao, use document.body.classList.toggle('modo-escuro')
 //    - Mude o texto do botao: se tem a classe, "Modo Claro", senao "Modo Escuro"
 //    - Dica: use document.body.classList.contains('modo-escuro') para verificar
-//
+//    const btnTema = document.getElementById('btn-tema');
+
+btnTema.addEventListener('click', function() {
+    document.body.classList.toggle('modo-escuro');
+    
+    if (document.body.classList.contains('modo-escuro')) {
+        btnTema.textContent = 'Modo Claro';
+    } else {
+        btnTema.textContent = 'Modo Escuro';
+    }
+});
 // 2. CONTADOR DE VISITAS (#btn-visita e #numero-visitas)
 //    - Crie uma variavel: let visitas = 0;
 //    - Pegue o botao e o span com getElementById()
