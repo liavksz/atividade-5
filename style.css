@@ -8,7 +8,7 @@
       - Mude a cor de fundo (background-color)
       - Escolha uma fonte bonita (font-family)
       - Defina uma cor de texto padrao (color)
-
+      
    2. HEADER
       - De uma cor de fundo diferente
       - Centralize o texto (text-align)
@@ -46,3 +46,10 @@
 
    Bom trabalho!
 */
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
