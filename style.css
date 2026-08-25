@@ -89,3 +89,18 @@ input, textarea {
     box-sizing: border-box;
     font-size: 14px;
 }
+.barra-progresso {
+    background-color: #e0e0e0;
+    height: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progresso {
+    background-color: #2ecc71;
+    height: 100%;
+    border-radius: 10px;
+    width: 0%;
+    transition: width 0.5s ease;
+}
